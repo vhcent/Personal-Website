@@ -1,8 +1,17 @@
 import React from "react";
+import Header from "./components/header/Header"
+import About from "./components/about/About"
+import Navbar from "./components/navbar/Navbar"
+import Footer from "./components/footer/Footer"
 
 function App() {
     return(
-        <div>HELLOO</div>
+        <div>
+            <Header/>
+            <Navbar/>
+            <About/>
+            <Footer/>
+        </div>
     )
 }
 
