@@ -1,3 +1,44 @@
-.header-container {
+header {
+    height: 100%;
     text-align: center;
+    margin-top: 3%;
+    overflow: hidden;
+}
+
+.header-container {
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+
+.cta {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    gap: 1rem;
+    left: 5rem;
+    bottom: 5rem;
+}
+
+.header-socials > a {
+    font-size: 1.5rem;
+}
+
+.portrait {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.portrait img {
+    width: 20rem;
+    border-radius: 15%;
 }
