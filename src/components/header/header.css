@@ -32,6 +32,13 @@ header {
     font-size: 1.5rem;
 }
 
+/* .header-socials::after {
+    content: "";
+    width: 1px;
+    height: 5rem;
+    background: var(--primary-color);
+} */
+
 .portrait {
     margin-top: 1.5rem;
     display: flex;
@@ -41,4 +48,17 @@ header {
 .portrait img {
     width: 20rem;
     border-radius: 15%;
+}
+
+@media screen and (max-width: 700px) {
+    .header-socials {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        gap: 1rem;
+        left: 0rem;
+        bottom: 0rem;
+        padding-top: 2rem;
+    }
 }
