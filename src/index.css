@@ -36,6 +36,7 @@ body {
     font-weight: 400;
     background-image: url("./assets/background-picture.jpg");
     line-height: 1.5;
+    background-attachment: fixed;
 }
 
 .container {
@@ -48,19 +49,20 @@ h2,
 h3,
 h4,
 h5 {
-    font-weight: 500;
-    font-size: 1rem;
+    font-weight: 600;
 }
 
 h1 {
     font-size: 2rem;
+    /* color: var(--primary-color); */
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 section > h2 {
+    font-size: 1.5rem;
     text-align: center;
     color: var(--primary-color);
 }

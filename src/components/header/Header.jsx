@@ -7,9 +7,9 @@ import Portrait from "../../assets/Portrait.jpg";
 const Header = () => {
     return (
         <header>
-            <div className="container header-container">
+            <div className="container header-container" id="header">
                 <h1>Vincent Huang</h1>
-                <h5 className="gray-text">3rd Year Computer Science and Data Science Student at UC Davis</h5>
+                <h4 className="gray-text">3rd Year Computer Science and Data Science Student at UC Davis</h4>
                 <div className="cta">
                     <a href={Resume} download className="button">Resume</a>
                     <a href="#contact" className="button">Contact</a>

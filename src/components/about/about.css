@@ -1,0 +1,32 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding-top: 1.5rem;
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about-card {
+    background: var(--bg-color-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: var(--transition);
+    /* width: 200%; */
+}
+
+.about-card:hover {
+    background: transparent;
+    border-color: var(--primary-color-variant);
+    cursor: pointer;
+}
+
+p {
+    width: 50%;
+}
