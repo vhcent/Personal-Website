@@ -28,7 +28,7 @@ const About = () => {
                 </div>
                 <p>
                     Hello! My name is Vincent Huang and I am University of California, Davis class of 2024 B.S. in Computer Science and Data Science
-                    who is currently seeking a software engineering internship opportunity for the Summer of 2023. My primary interests include data science,
+                    who is currently seeking a software engineering or data science internship for the Summer of 2023. My primary interests include data science,
                     video game development, and artificial intelligence systems. I am an adaptable independent teamworker who is strong in programming and data analysis.
 
                 </p>
