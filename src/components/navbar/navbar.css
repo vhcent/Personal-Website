@@ -11,6 +11,7 @@ nav {
     display: flex;
     gap: 2.5rem;
     border-radius: 2rem;
+    justify-content: center;
     /* backdrop-filter: blur(15px); */
 }
 
@@ -25,4 +26,11 @@ nav a.current {
     background: var(--bg-color);
     color: white;
     border-radius: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        width: 80%;
+        gap: 7%;
+    }
 }

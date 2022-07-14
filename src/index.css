@@ -11,6 +11,7 @@
 }
 
 :root {
+    justify-self: center;
     --bg-color: #39394d;
     --bg-color-variant: #2c2c6c;
     --primary-color: #4db5ff;
