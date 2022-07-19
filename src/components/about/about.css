@@ -66,5 +66,6 @@ p {
     .about-card {
         text-align: center;
         width: 8rem;
+        margin-bottom: 1rem;
     }
 }
