@@ -7,10 +7,10 @@ import Portrait from "../../assets/Portrait.jpg";
 const Header = () => {
     return (
         <header>
-            <div className="container header-container" id="header">
+            <div class="container header-container" id="header">
                 <h1>Vincent Huang</h1>
-                <h4 className="gray-text">3rd Year Computer Science and Data Science Student at UC Davis</h4>
-                <div className="cta">
+                <h4 class="gray-text">3rd Year Computer Science and Data Science Student at UC Davis</h4>
+                <div class="cta">
                     <a href={Resume} download className="button">Resume</a>
                     <a href="#contact" className="button">Contact</a>
                 </div>

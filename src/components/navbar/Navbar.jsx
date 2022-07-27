@@ -15,7 +15,7 @@ const Navbar = () => {
             <a href="#header" className={current === "#header" ? 'current' : ''} onClick={() => setCurrent("#header")}><AiOutlineHome /></a>
             <a href="#about" className={current === "#about" ? 'current' : ''} onClick={() => setCurrent("#about")}><AiOutlineUser /></a>
             <a href="#experience" className={current === "#experience" ? 'current' : ''} onClick={() => setCurrent("#experience")}><MdOutlineWorkOutline /></a>
-            <a href="projects" className={current === "#projects" ? 'current' : ''} onClick={() => setCurrent("#projects")}><VscFolderLibrary /></a>
+            <a href="#projects" className={current === "#projects" ? 'current' : ''} onClick={() => setCurrent("#projects")}><VscFolderLibrary /></a>
             <a href="#technologies" className={current === "#technologies" ? 'current' : ''} onClick={() => setCurrent("#technologies")}><BiTask /></a>
             <a href="#contact" className={current === "#contact" ? 'current' : ''} onClick={() => setCurrent("#contact")}><BiMessageAltDetail /></a>
         </nav>
