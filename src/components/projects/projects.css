@@ -1,11 +1,13 @@
 .projects-container {
     padding-top: 2.5rem;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .projects-container ul {
     margin-top: 1.5rem;
     display: grid;
-    grid-gap: 2%;
+    grid-gap: 20px;
     grid-template-columns: auto auto auto;
 }
 
@@ -17,8 +19,12 @@
     border: 1px solid black;
     border-radius: 5px;
     gap: 0.1rem;
-    /* overflow: hidden; */
 }
+
+.project-block h3 {
+    color: #36d0d5;
+}
+
 .project-link {
     width: 100%;
     height: 100%;
@@ -31,25 +37,51 @@
     border-radius: 5px;
     width: 100%;
     height: 100%;
-    /* background-color: black; */
+    position: relative;
 }
 
 .overlay {
     display: none;
+}
+
+.project-link:hover .projects-picture {
+    opacity: 0.5;
+}
+
+.projects-picture:hover + .overlay,
+.overlay:hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 10;
 }
 
-.projects-picture:hover {
-    opacity: 0.5;
+.project-description {
+    padding-top: 3%;
 }
 
-.projects-picture:hover + .overlay {
-    display: block;
-    z-index: 10;
-    pointer-events: none;
+.overlay-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+
+@media screen and (max-width: 1200px) {
+    .project-block h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .projects-container ul {
+        /* margin-top: 1.5rem;
+        display: grid;*/
+        grid-gap: 20px;
+        grid-template-columns: auto auto;
+    }
 }

@@ -6,32 +6,43 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     return (
-        <section className="container projects-container" id="projects">
+        <section className="projects-container" id="projects">
             <h2>Personal Projects</h2>
             <ul className="projects-list">
                 {ProjectsData.map((val, key) => {
                     return (
                         <li key={key} className="project-block">
                             <h3>{val.title}</h3>
-                            <a
-                                href={val.link}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="project-link"
-                            >
+                            <div className="project-link">
                                 <img
                                     src={val.icon}
                                     className="projects-picture"
                                     alt="projects-portrait"
                                 />
                                 <div className="overlay">
-                                    <p>{val.description}</p>
-                                    <div>
-                                        <MdOutlineOpenInNew />
-                                        <FaGithub />
+                                    <p className="project-description">
+                                        {val.description}
+                                    </p>
+                                    <div className="overlay-icons">
+                                        <a
+                                            href={val.link}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="overlay-icon"
+                                        >
+                                            <MdOutlineOpenInNew size={20} />
+                                        </a>
+                                        <a
+                                            href={val.github}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="overlay-icons"
+                                        >
+                                            <FaGithub size={20} />
+                                        </a>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </li>
                     );
                 })}
