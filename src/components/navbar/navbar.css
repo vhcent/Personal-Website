@@ -22,11 +22,11 @@ nav a {
     padding: 0.25rem 0.5rem;
 }
 
-nav a.current {
+/* nav a.current {
     background: var(--bg-color);
     color: white;
     border-radius: 2rem;
-}
+} */
 
 @media screen and (max-width: 500px) {
     nav {

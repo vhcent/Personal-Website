@@ -1,8 +1,8 @@
 import React from 'react';
-import "./header.css";
+import "./Header.css";
 import HeaderSocials from './HeaderSocials'
-import Resume from "../../assets/Resume.pdf";
-import Portrait from "../../assets/Portrait.jpg";
+import Resume from "../../assets/resume.pdf";
+import Portrait from "../../assets/portrait.jpg";
 
 const Header = () => {
     return (

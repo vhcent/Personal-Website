@@ -1,9 +1,9 @@
-import React from 'react'
-import { BsLinkedin } from 'react-icons/bs'
-import { FaGithub } from 'react-icons/fa'
-import { AiOutlineMail } from 'react-icons/ai'
-import { AiOutlineInstagram } from 'react-icons/ai'
-import { AiFillFacebook } from 'react-icons/ai'
+import React from 'react';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineInstagram } from 'react-icons/ai';
+import { AiFillFacebook } from 'react-icons/ai';
 
 const HeaderSocials = () => {
     return (

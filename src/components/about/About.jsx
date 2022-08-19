@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css';
+import './About.css';
 import { MdOutlineWorkOutline } from 'react-icons/md'
 import { VscFolderLibrary } from 'react-icons/vsc'
 import { BiTask } from 'react-icons/bi'

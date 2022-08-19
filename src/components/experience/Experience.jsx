@@ -1,12 +1,12 @@
 import React from 'react';
-import './experience.css';
+import './Experience.css';
 import { BsFillBriefcaseFill } from 'react-icons/bs';
 
 const Experience = () => {
     return (
         <section class="container experience-container" id="experience">
             <h2>Experience</h2>
-            <h4 class="gray-text">My Journey</h4>
+            {/* <h4 class="gray-text">My Journey</h4> */}
             <div class="timeline-container">
                 <div class="timeline-block">
                     <div class="timeline-icon">
