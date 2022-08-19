@@ -63,7 +63,12 @@
 @media screen and (max-width: 500px) {
     .about-card {
         text-align: center;
-        width: 8rem;
+        width: 40%;
         margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .about-card h5 {
+        text-align: center;
     }
 }

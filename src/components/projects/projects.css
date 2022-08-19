@@ -45,7 +45,7 @@
 }
 
 .project-link:hover .projects-picture {
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .projects-picture:hover + .overlay,
@@ -83,5 +83,14 @@
         display: grid;*/
         grid-gap: 20px;
         grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects-container ul {
+        /* margin-top: 1.5rem;
+        display: grid;*/
+        grid-gap: 20px;
+        grid-template-columns: auto;
     }
 }

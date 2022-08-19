@@ -68,3 +68,9 @@ header {
         /* align-self: center; */
     }
 }
+
+@media screen and (max-width: 400px) {
+    .portrait img {
+        width: 15rem;
+    }
+}

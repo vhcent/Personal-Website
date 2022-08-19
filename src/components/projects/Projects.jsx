@@ -30,7 +30,7 @@ const Projects = () => {
                                             rel="noreferrer"
                                             className="overlay-icon"
                                         >
-                                            <MdOutlineOpenInNew size={20} />
+                                            <MdOutlineOpenInNew size={25} />
                                         </a>
                                         <a
                                             href={val.github}
@@ -38,7 +38,7 @@ const Projects = () => {
                                             rel="noreferrer"
                                             className="overlay-icons"
                                         >
-                                            <FaGithub size={20} />
+                                            <FaGithub size={25} />
                                         </a>
                                     </div>
                                 </div>
