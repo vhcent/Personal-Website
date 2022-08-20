@@ -16,8 +16,8 @@ const Projects = () => {
                             <div className="project-link">
                                 <img
                                     src={val.icon}
-                                    className="projects-picture"
-                                    alt="projects-portrait"
+                                    className="project-picture"
+                                    alt="project-portrait"
                                 />
                                 <div className="overlay">
                                     <p className="project-description">

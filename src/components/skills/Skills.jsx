@@ -9,7 +9,7 @@ const Technologies = () => {
             <ul className="skills-list">
                 {SkillsData.map((val, key) => {
                     return (
-                        <li className="skill-block">
+                        <li key={key} className="skill-block">
                             <img
                                 src={val.icon}
                                 className="skill-icon"

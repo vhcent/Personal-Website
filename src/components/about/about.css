@@ -28,6 +28,7 @@
     background: transparent;
     border-color: var(--primary-color-variant);
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .about-paragraph {

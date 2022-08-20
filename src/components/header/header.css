@@ -20,6 +20,10 @@ header {
     justify-content: center;
 }
 
+.cta > a:hover {
+    transform: scale(1.1);
+}
+
 .header-socials {
     display: flex;
     flex-direction: column;
@@ -32,6 +36,10 @@ header {
 
 .header-socials > a {
     font-size: 1.5rem;
+}
+
+.header-socials > a:hover {
+    transform: scale(1.2);
 }
 
 .portrait {
