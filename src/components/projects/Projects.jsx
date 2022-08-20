@@ -24,14 +24,16 @@ const Projects = () => {
                                         {val.description}
                                     </p>
                                     <div className="overlay-icons">
-                                        <a
-                                            href={val.link}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="overlay-icon"
-                                        >
-                                            <MdOutlineOpenInNew size={25} />
-                                        </a>
+                                        {val.link !== "" ? (
+                                            <a
+                                                href={val.link}
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="overlay-icon"
+                                            >
+                                                <MdOutlineOpenInNew size={25} />
+                                            </a>
+                                        ) : null}
                                         <a
                                             href={val.github}
                                             target="_blank"

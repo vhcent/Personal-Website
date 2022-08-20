@@ -47,20 +47,20 @@
         align-items: center;
     }
     .about-cards {
-        max-width: 120%;
+        /* max-width: 120%; */
         flex-direction: row;
-        flex: 1 1 0px;
+        flex-direction: space-around;
     }
     .about-card {
         text-align: center;
-        width: 10rem;
+        width: 40%;
     }
     p {
         text-align: center;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .about-card {
         text-align: center;
         width: 40%;
@@ -70,5 +70,6 @@
 
     .about-card h5 {
         text-align: center;
+        font-size: 0.7rem;
     }
 }

@@ -8,7 +8,8 @@
     margin-top: 1.5rem;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    justify-content: center;
 }
 
 .project-block {
@@ -23,6 +24,10 @@
 
 .project-block h3 {
     color: #36d0d5;
+}
+
+.project-block:last-child {
+    justify-self: center;
 }
 
 .project-link {
@@ -78,15 +83,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .projects-container ul {
-        /* margin-top: 1.5rem;
-        display: grid;*/
-        grid-gap: 20px;
-        grid-template-columns: auto auto;
-    }
-}
-
-@media screen and (max-width: 600px) {
     .projects-container ul {
         /* margin-top: 1.5rem;
         display: grid;*/
