@@ -94,9 +94,9 @@ a:hover {
 }
 
 .button:hover {
-    background: var(--white-color);
-    color: var(--bg-color-variant);
-    border-color: transparent;
+    color: var(--white-color);
+    /* color: var(--bg-color-variant); */
+    border-color: var(--white-color);
 }
 
 img {

@@ -1,94 +1,84 @@
-import React, { useState } from "react";
-import "./contact.css";
+import React, { useState, useRef } from "react";
+import "./Contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsPhone } from "react-icons/bs";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        message: "",
-    });
-    const [isSubmitted, setIsSubmitted] = useState(false);
     const [loading, setLoading] = useState(false);
 
-    const { name, email, message } = formData;
+    const form = useRef();
 
-    const handleChangeInput = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-    };
-
-    const handleSubmit = (e) => {
+    const sendMessage = (e) => {
         setLoading(true);
+        e.preventDefault();
 
-        const contact = {
-            _type: "contact",
-            name: name,
-            email: email,
-            message: message,
-        };
+        emailjs
+            .sendForm(
+                process.env.REACT_APP_SERVICE_ID,
+                process.env.REACT_APP_TEMPLATE_ID,
+                form.current,
+                process.env.REACT_APP_PUBLIC_KEY
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    // setLoading(false);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
     };
 
     return (
         <section className="container contact-container" id="contact">
             <h2>Contact Me</h2>
             <div className="contact-cards">
-                <div className="contact-card">
-                    <AiOutlineMail />
-                    <a
-                        href="mailto:vhuang2020@gmail.com"
-                        className="contact-text"
-                    >
+                <a href="mailto:vhuang2020@gmail.com" className="contact-card">
+                    <div className="contact-content">
+                        <AiOutlineMail size={20} />
                         vhuang2020@gmail.com
-                    </a>
-                </div>
-                <div className="contact-card">
-                    <BsPhone />
-                    <a href="tel: +1 (510) 456-6165" className="contact-text">
+                    </div>
+                </a>
+                <a href="tel: +1 (510) 456-6165" className="contact-card">
+                    <div className="contact-content">
+                        <BsPhone size={20} />
                         +1 (510) 456-6165
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
 
-            <div className="form-container">
-                <div className="input">
+            <form className="form-container" ref={form} onSubmit={sendMessage}>
+                <div className="info-container">
                     <input
                         className="input-text"
                         type="text"
                         placeholder="Your Name"
                         name="name"
-                        value={name}
-                        onChange={handleChangeInput}
+                        // value={name}
+                        // onChange={handleChangeInput}
                     />
-                </div>
-                <div className="input">
                     <input
                         className="input-text"
                         type="text"
                         placeholder="Your Email"
                         name="email"
-                        value={email}
-                        onChange={handleChangeInput}
+                        // value={email}
+                        // onChange={handleChangeInput}
                     />
                 </div>
-                <div>
-                    <textarea
-                        className="input-text"
-                        placeholder="Your Message"
-                        name="message"
-                        value={message}
-                        onChange={handleChangeInput}
-                    />
-                </div>
-                <button
-                    type="button"
+                <textarea
                     className="input-text"
-                    onClick={handleSubmit}
-                >
+                    placeholder="Your Message"
+                    name="message"
+                    // value={message}
+                    // onChange={handleChangeInput}
+                />
+                <button type="submit" className="button">
                     {loading ? "Sending" : "Send Message"}
                 </button>
-            </div>
+            </form>
         </section>
     );
 };
