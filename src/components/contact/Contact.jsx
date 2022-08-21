@@ -23,7 +23,7 @@ const Contact = () => {
             .then(
                 (result) => {
                     console.log(result.text);
-                    // setLoading(false);
+                    setLoading(false);
                 },
                 (error) => {
                     console.log(error.text);
