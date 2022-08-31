@@ -150,3 +150,5 @@ yarn-debug.log*
 yarn-error.log*
 
 .env
+# Local Netlify folder
+.netlify
