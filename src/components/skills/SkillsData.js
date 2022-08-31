@@ -8,7 +8,9 @@ import java from "../../assets/java.png";
 import cpp from "../../assets/cpp.png";
 import cs from "../../assets/cs.png";
 import c from "../../assets/c.png";
+import r from "../../assets/r.png";
 import mysql from "../../assets/mysql.png";
+import git from "../../assets/git.png";
 import aws from "../../assets/aws.png";
 import figma from "../../assets/figma.png";
 import ms from "../../assets/ms.png";
@@ -55,8 +57,16 @@ export const SkillsData = [
         icon: c,
     },
     {
+        title: "R",
+        icon: r,
+    },
+    {
         title: "MySQL",
         icon: mysql,
+    },
+    {
+        title: "Git",
+        icon: git,
     },
     {
         title: "Amazon Web Services",
@@ -70,4 +80,4 @@ export const SkillsData = [
         title: "Microsoft Office",
         icon: ms,
     },
-]
+];
