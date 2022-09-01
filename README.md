@@ -1,6 +1,6 @@
 # Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The source code for my [personal website]([https://github.com/facebook/create-react-app](https://vincent-huang.netlify.app/)).
 
 ## Available Scripts
 
