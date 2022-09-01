@@ -1,6 +1,6 @@
 # Personal Website
 
-The source code for my [personal website]([https://github.com/facebook/create-react-app](https://vincent-huang.netlify.app/)).
+The source code for my [personal website](https://vincent-huang.netlify.app/).
 
 ## Available Scripts
 
