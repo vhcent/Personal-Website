@@ -13,22 +13,52 @@ const Experience = () => {
                         <BsFillBriefcaseFill />
                     </div>
                     <div className="timeline-header">
-                        <h3>Full-Stack Software Engineering Intern</h3>
-                        <p className="dates">June 2022 - Present</p>
+                        <h3>Software Engineering Intern</h3>
+                        <p className="dates">January 2023 - Present</p>
+                    </div>
+                    <div className="timeline-content">
+                        <h4 className="location-text">
+                            <a
+                                href="https://www.avenuapp.com/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                Avenu
+                            </a>
+                        </h4>
+                        <p className="timeline-paragraph">
+                            Engineered features and UI/UX for mobile and
+                            mobile-web applications with React, React Native,
+                            and Firebase. Collaborated with cross-functional
+                            teams to design and implement responsive web and
+                            mobile designs. Built reusable components, views,
+                            and controllers and managed states using redux.
+                            Worked with RESTful API's and AJAX to integrate
+                            functionality.
+                        </p>
+                    </div>
+                </div>
+                <div className="timeline-block">
+                    <div className="timeline-icon">
+                        <BsFillBriefcaseFill />
+                    </div>
+                    <div className="timeline-header">
+                        <h3>Front-End Developer Intern</h3>
+                        <p className="dates">June 2022 - September 2022</p>
                     </div>
                     <div className="timeline-content">
                         <h4 className="location-text">
                             San Jose State University
                         </h4>
                         <p className="timeline-paragraph">
-                            Worked under the guidance of Dr. Jerry Gao for his
-                            research in cloud computing services. Produced UI/UX
-                            and database designs for a smart green agriculture
-                            app using Figma and flow diagrams. Used React to
-                            build the front-end interface for web applications
-                            which enable efficient and elegant analysis and
-                            control of solar, battery storage, and various
-                            sensors and their data.
+                            Designed and developed 20+ webpages for multiple
+                            projects using technologies such as Figma, HTML,
+                            CSS, JavaScript, and React. Enhanced user experience
+                            and fulfilled web application objectives by creating
+                            site structure, navigation, and functionality with
+                            the backend. Worked with professors, development
+                            leads, and other software developers to build 40% of
+                            business requirements.
                         </p>
                     </div>
                 </div>
@@ -45,12 +75,15 @@ const Experience = () => {
                             University of California, Davis
                         </h4>
                         <p className="timeline-paragraph">
-                            Tutored for undergraduate courses such as
-                            Object-Oriented Programming and Data Structures.
-                            Held in-person and online office hour sessions to
-                            help students prepare for assignments and exams.
-                            Delivered course material to enhance students’
-                            programming and problem-solving skills.
+                            Tutored for UC Davis students by providing support
+                            and guidance to students in lower division courses
+                            such as Object-Oriented Programming and Data
+                            Structures. Reviewed and delivered course material,
+                            explained exercise and homework solutions, and held
+                            one-on-one and group sessions to provide feedback
+                            and give guidance. Improved students' overall grades
+                            by an average of 20% and helped several struggling
+                            students obtain passing grades.
                         </p>
                     </div>
                 </div>

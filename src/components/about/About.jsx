@@ -27,14 +27,13 @@ const About = () => {
                     </article>
                 </div>
                 <p className="about-paragraph">
-                    Hello! My name is Vincent Huang and I am University of
-                    California, Davis className of 2024 B.S. in Computer Science
-                    and Data Science who is currently seeking a software
-                    engineering or data science internship for the Summer of
-                    2023. My primary interests include data science, video game
-                    development, and artificial intelligence systems. I am an
-                    adaptable independent teamworker who is strong in
-                    programming, UI/UX design, and data analysis. I am
+                    Hello! My name is Vincent Huang and I am a third year
+                    student at the University of California, Davis who is
+                    currently seeking a software engineering or data science
+                    internship or job for 2023. My primary interests include
+                    full-stack development, data science, and video game
+                    development. I am an adaptable independent teamworker who is
+                    strong in programming, UI/UX design, and data analysis. I am
                     comfortable with both front-end and back-end development,
                     primarily with node.js and Amazon Web Services, as well as
                     UI/UX designing using figma.

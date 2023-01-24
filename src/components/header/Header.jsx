@@ -10,8 +10,7 @@ const Header = () => {
             <div className="container header-container" id="header">
                 <h1>Vincent Huang</h1>
                 <h4 className="gray-text">
-                    3rd Year Computer Science and Data Science Student at UC
-                    Davis
+                    3rd Year Computer Science and Statistics Student at UC Davis
                 </h4>
                 <div className="cta">
                     <a href={Resume} download className="button">
