@@ -23,7 +23,7 @@ export const ProjectsData = [
     {
         title: "Pathfinding Algorithm Visualizer",
         icon: pathfinding,
-        link: "https://pathfindingalgovisual.herokuapp.com/",
+        link: "http://pathfinding-algorithm-visualizer.s3-website-us-west-1.amazonaws.com/",
         github: "https://github.com/vhcent/Pathfinding-Algorithm-Visualizer",
         description:
             "An algorithm visualizer build from HTML, CSS, JavaScript, and React that showcases various graph algorithms such as Dijkstra's algorithm, Breadth First Search, and Depth First Search. Includes options for adjusting terrain, adding weights, changing speeds, among many.",
@@ -31,7 +31,7 @@ export const ProjectsData = [
     {
         title: "Sorting Algorithm Visualizer",
         icon: sorting,
-        link: "https://sortingalgovisual.herokuapp.com/",
+        link: "http://sorting-algorithm-visualizer.s3-website-us-west-1.amazonaws.com/",
         github: "https://github.com/AroopBiswal/Sorting-Algorithm-Visualizer",
         description:
             "An algorithm visualizer which depicts classic sorting algorithms made from HTML, CSS, JavaScript, and React. Displays classic algorithms such as merge sort, quick sort, heap sort, etc. Provides options for visualization speed and element size.",
